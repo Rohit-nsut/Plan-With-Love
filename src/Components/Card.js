@@ -15,7 +15,7 @@ const Card = (props) => {
     }
 
     return (
-        <div className="w-[18rem] sm:w-[25rem] m-2 sm:m-4 rounded-xl rohit">
+        <div className="w-[16rem] sm:w-[25rem] m-2 sm:m-4 rounded-xl rohit">
             <div className="p-4 rounded-md">
                 <img src={props.image} className=" aspect-square object-cover rounded-lg"></img>
                 <h2 className="mt-4 text-green-600 font-bold text-2xl"> &#8377;{props.price}</h2>
