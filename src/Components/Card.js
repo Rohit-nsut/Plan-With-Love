@@ -30,7 +30,7 @@ const Card = (props) => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                    <button className="px-8 py-1 sm:px-20 sm:py-1 bg-[#b4161b21] border-red-500 border  rounded-lg font-semibold text-lg mt-8 hover:bg-red-500 hover:text-white "  onClick={()=>{props.removeTours(props.id)}}>
+                    <button className="px-14 py-1 sm:px-20 sm:py-1 bg-[#b4161b21] border-red-500 border  rounded-lg font-semibold text-xl mt-8 hover:bg-red-500 hover:text-white "  onClick={()=>{props.removeTours(props.id)}}>
                         Not Interested
                     </button>
                 </div>
